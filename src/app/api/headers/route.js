@@ -9,7 +9,8 @@ console.log(requestheaders.get("Authorization"))
 
 return new Response("Request Headers Collection",{
     headers:{
-        "Content-Type":"text/html"
+        "Content-Type":"text/html",
+        "Set-Cookie": "theme=dark"
     }
 })
     
