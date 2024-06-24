@@ -11,14 +11,14 @@ const Login = () =>
             <div className='p-10'>
 
                 <tr className='flex flex-col'>
-                    <td><label for="email">Email / Phone number: &nbsp;</label></td>
+                    <td><label htmlFor="email">Email / Phone number: &nbsp;</label></td>
                     <td><input type="text" name="email" id="emai" placeholder='Email or phone'
                         className='rounded-md md:rounded-lg border border-black  
                      ps-3 text-start font-[15px] w-[10rem] h-[2rem] sm:w-[22rem] md:h-[3rem] my-3 ' /></td></tr>
 
                 <tr className='flex flex-col'>
                     <td>
-                        <label for="password">Password:  &nbsp;</label></td>
+                        <label htmlFor="password">Password:  &nbsp;</label></td>
                     <td>
                         <input type="password" name="password" id="password" placeholder='Password'
                             className='rounded-md md:rounded-lg  border border-black
