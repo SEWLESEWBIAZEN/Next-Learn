@@ -14,3 +14,19 @@ export async function PATCH(updateRequest, { params }) {
 
   return Response.json(comments[index]);
 }
+export async function DELETE( { params }) {
+  const index = comments.findIndex((c) => c.id === parseInt(params.id));
+  const deletedcomment=comments[index];
+  if(comments[index]){
+    comments.splice(index,1);
+    return Response.json(deletedcomment);
+  }
+  return new Response(JSON.stringify,{
+    headers:{
+      "Content-Type":"application\json",
+    },
+    status:404
+  });
+
+ 
+}
