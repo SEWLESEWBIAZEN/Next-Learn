@@ -1,6 +1,6 @@
 import React from 'react'
 
-const layout = ({ children,
+const Layout = ({ children,
   users,
   notifications,
   revenue,
@@ -24,4 +24,4 @@ const layout = ({ children,
   ) : (<div>{login}</div>);
 }
 
-export default layout
+export default Layout

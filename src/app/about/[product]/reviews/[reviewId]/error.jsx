@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-const error = ({ error, reset }) =>
+const Error = ({ E, reset }) =>
 {
 
     return (
@@ -12,4 +12,4 @@ const error = ({ error, reset }) =>
     )
 }
 
-export default error
+export default Error

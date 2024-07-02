@@ -7,7 +7,7 @@ const getRandomInt = (count) =>
   return Math.floor(Math.random() * count);
 }
 
-const page = () =>
+const Page = () =>
 {
   const random = getRandomInt(2);
 
@@ -20,4 +20,4 @@ const page = () =>
       <div>The details product {params.product} in review {params.reviewId}</div>
   )
 }
-export default page
+export default Page

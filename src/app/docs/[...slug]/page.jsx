@@ -1,6 +1,6 @@
 import React from 'react'
 
-const page = ({ params }) =>
+const Page = ({ params }) =>
 {
     if (params.slug.length === 2)
     {
@@ -11,9 +11,9 @@ const page = ({ params }) =>
     }
     return (
         <div>
-            Docs home page
+            Docs home Page
         </div>
     )
 }
 
-export default page
+export default Page
